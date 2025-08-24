@@ -1,0 +1,15 @@
+CREATE TABLE Students
+ (
+    Student_ID INT PRIMARY KEY,
+    Name VARCHAR(50) NOT NULL,
+    Age INT,
+    Grade VARCHAR(5)
+);
+
+INSERT INTO Students (Student_ID, Name, Age, Grade)
+VALUES 
+    (1, 'Ali Khan', 20, 'A'),
+    (2, 'Sara Ahmed', 22, 'B'),
+    (3, 'Usman Tariq', 19, 'A+'),
+    (4, 'Fatima Noor', 21, 'B+');
+SELECT*FROM STUDENTS
